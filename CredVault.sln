@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CredVault.Base", "CredVault.Base\CredVault.Base.csproj", "{AA575416-98FB-43D9-B373-4567D60E37EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CredVault.Base.Tests", "CredVault.Base.Tests\CredVault.Base.Tests.csproj", "{CDD2F81C-A216-4A26-857B-67D108029155}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CredVault.App", "CredVault.Console\CredVault.App.csproj", "{9D24E2B9-4F4A-46C3-A358-CBBDE3592FFD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AA575416-98FB-43D9-B373-4567D60E37EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA575416-98FB-43D9-B373-4567D60E37EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA575416-98FB-43D9-B373-4567D60E37EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA575416-98FB-43D9-B373-4567D60E37EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDD2F81C-A216-4A26-857B-67D108029155}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDD2F81C-A216-4A26-857B-67D108029155}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDD2F81C-A216-4A26-857B-67D108029155}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDD2F81C-A216-4A26-857B-67D108029155}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D24E2B9-4F4A-46C3-A358-CBBDE3592FFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D24E2B9-4F4A-46C3-A358-CBBDE3592FFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D24E2B9-4F4A-46C3-A358-CBBDE3592FFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D24E2B9-4F4A-46C3-A358-CBBDE3592FFD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
